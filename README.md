@@ -25,10 +25,14 @@ We used parallel corpora of English-Hindi sentences for training and evaluation.
 •⁠  ⁠A single hidden layer trained for 50 epochs.
 •⁠  ⁠Attention mechanism to improve translation quality.
 
+![alt text](LSTM_architecture.png)
+
 ### Helsinki NLP Opus-MT Model
 •⁠  ⁠Transformer-based architecture.
 •⁠  ⁠Fine-tuned on the English-Hindi translation task.
 •⁠  ⁠Pre-trained on a large multilingual dataset.
+
+![alt text](code/NMT.png)
 
 ## Model Training Setting
 •⁠  ⁠LSTM Model: Trained for 50 epochs with a batch size of 64, using an Adam optimizer and a learning rate of 0.001.
